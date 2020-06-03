@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Dashboard</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>  
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="./"><img src="https://siicincubator.com/wp-content/uploads/2020/05/SIIC-whitelogo.svg" alt=""></a>
+    </div>
+   
+    <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown"><img src="./img/profile.png" alt="" class="dropdown-toggle" data-toggle="dropdown">
+              <ul class="dropdown-menu">
+                <li style="text-align: center;"><strong>Hi,Ashutosh</strong></li>
+                <li><a href="#">My Profile</a></li>
+                <li><a href="#">LOGOUT</a></li>
+              </ul>
+            </li>
+            
+    </ul>
+  </div>
+</nav>
+  
+<div class="container1">
+  <h1>DASHBOARD</h1>
+  <hr>
+  <h4>STATUS</h4>
+  <div class="clearfix">
+  <div class="progress-circle over50 p100">
+    <span>100%</span>
+    <div class="left-half-clipper">
+       <div class="first50-bar"></div>
+       <div class="value-bar"></div>
+    </div>
+    <h4 style="z-index: 9; margin-top: -20px; margin-left: 30px;" >Total</h4>
+    
+
+ </div>
+ <div class="progress-circle p20">
+    <span style="color:rgb(78, 145, 207) ;">20%</span>
+    <div class="left-half-clipper">
+       <div class="first50-bar" style="background-color:rgb(78, 145, 207) ;"></div>
+       <div class="value-bar" style=" border: 0.45em solid rgb(78, 145, 207);"></div>
+    </div>
+    <h4 style="z-index: 9; margin-top: -20px;" >Completed</h4>
+
+ </div>
+ <div class="progress-circle over50 p60">
+    <span style="color: rgb(68, 196, 79);">60%</span>
+    <div class="left-half-clipper">
+       <div class="first50-bar" style="background-color:rgb(68, 196, 79) ;"></div>
+       <div class="value-bar" style=" border: 0.45em solid rgb(68, 196, 79);"></div>
+    </div>
+    <h4 style="z-index: 9; margin-top: -20px; overflow: visible;" >Info Sought</h4>
+ </div>
+ <div class="progress-circle over50 p80">
+    <span style="color: rgb(163, 173, 65);"> 80%</span>
+    <div class="left-half-clipper">
+       <div class="first50-bar" style="background-color:rgb(213, 226, 98);"></div>
+       <div class="value-bar" style=" border: 0.45em solid rgb(213, 226, 98);"></div>
+    </div>
+    <h4 style="z-index: 9; margin-top: -20px;" >In progress</h4>
+
+ </div>
+</div>
+
+<br><br>
+<h2>APPILCATIONS</h2>
+<hr>
+<br>
+<form action="viewapp.jsp" class="tabform" method="POST">
+
+   <div class="tabdiv" id="maindiv">
+   
+       <table class="blueTable">    
+        <tr>
+           <th>Organization</th>
+           <th>Applicant</th>
+           <th>Status</th>
+           <th>Assigned Expert</th>
+           <th>Feedback</th>
+           <th>Select</th>
+       </tr>
+    
+       <tr>
+           <td>gfhgbgngvn</td>
+           <td>bkujbkj</td>
+           <td>fbgbnvbv</td>
+           <td>cgbcgbcb</td>
+           <td>bvnvnvnvb</td>
+           <td><input type="radio" name="appno" value="hi"></td>
+       </tr>
+       <tr>
+         <td>gfhgbgngvn</td>
+         <td>bkujbkj</td>
+         <td>fbgbnvbv</td>
+         <td>cgbcgbcb</td>
+         <td>bvnvnvnvb</td>
+         <td><input type="radio" name="appno" value="hi"></td>
+     </tr>
+     <tr>
+      <td>gfhgbgngvn</td>
+      <td>bkujbkj</td>
+      <td>fbgbnvbv</td>
+      <td>cgbcgbcb</td>
+      <td>bvnvnvnvb</td>
+      <td><input type="radio" name="appno" value="hi"></td>
+  </tr>
+  <tr>
+   <td>gfhgbgngvn</td>
+   <td>bkujbkj</td>
+   <td>fbgbnvbv</td>
+   <td>cgbcgbcb</td>
+   <td>bvnvnvnvb</td>
+   <td><input type="radio" name="appno" value="hi"></td>
+</tr>
+<tr>
+   <td>gfhgbgngvn</td>
+   <td>bkujbkj</td>
+   <td>fbgbnvbv</td>
+   <td>cgbcgbcb</td>
+   <td>bvnvnvnvb</td>
+   <td><input type="radio" name="appno" value="hi"></td>
+</tr>
+<tr>
+   <td>gfhgbgngvn</td>
+   <td>bkujbkj</td>
+   <td>fbgbnvbv</td>
+   <td>cgbcgbcb</td>
+   <td>bvnvnvnvb</td>
+   <td><input type="radio" name="appno" value="hi"></td>
+</tr>
+       
+   </table>
+   </div>
+   <br><br>
+   <input type="submit" value="View" class="viewbtn">
+   </form>
+
+
+
+</div>
+<footer>
+   <div class="footer-container">
+       <div class="container2"> 
+           <img src="https://siicincubator.com/wp-content/uploads/2020/05/SIIC-whitelogo.svg" alt="logo" class="footlogo"> 
+           <h4>Foundation for Innovation and Research in Science and Technology</h4> 
+               <ul class="footer-links">
+                   <li>SIDBI Building, Sixth Avenue</li>
+                   <li>Indian Institute of Technology Kanpur,</li>
+                   <li>Kalyanpur, Kanpur Nagar,</li> 
+                   <li>Uttar Pradesh-208016,</li> 
+                   <li>India</li> 
+               </ul>
+           
+
+       </div>
+   </div>
+</footer>
+
+</body>
+</html>
